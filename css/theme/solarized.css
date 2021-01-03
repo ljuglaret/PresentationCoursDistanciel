@@ -67,18 +67,29 @@ body {
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 2em; }
+  font-size: 2em; 
+  font-color : rgba(0, 0, 0, 0.7);
+  font-family : 'Courier New', Courier, monospace;
+  border-style : double;
+  border-color : blue ;
+  border-width: 10px;
+  border-radius : 50px
+}
 
 .reveal h2 {
+  font-family : 'Courier New', Courier, monospace;
   font-size: 1.5em; }
 
 .reveal h3 {
+  font-family : 'Courier New', Courier, monospace;
   font-size: 1em; }
 
 .reveal h4 {
+  font-family : 'Courier New', Courier, monospace;
   font-size: 0.5em; }
 
 .reveal h1 {
+  font-family : 'Courier New', Courier, monospace;
   text-shadow: none; }
 
 /*********************************************

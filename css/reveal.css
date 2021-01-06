@@ -1601,3 +1601,12 @@ body {
   display:inline-block;
   
 }
+
+.reveal .r-stack {
+ display: grid;
+ }
+  
+.reveal .r-stack > * {
+     grid-area: 1/1;
+     margin: auto;
+  }

@@ -3,14 +3,7 @@
  * Author: Achim Staebler
  */
 
- table
-{
-  border-collapse: collapse;
-}
-td, th /* Mettre une bordure sur les td ET les th */
-{
-    border: 1px solid black;
-}
+
 @import url(../../lib/font/league-gothic/league-gothic.css);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 /**
@@ -186,8 +179,9 @@ body {
   word-wrap: normal; }
 
 .reveal table {
+  font-size : 30px;
   margin: auto;
-  border-collapse: collapse;
+  empty-cells : hide ;
   border-spacing: 0; }
 
 .reveal table th {
@@ -197,7 +191,7 @@ body {
 .reveal table td {
   text-align: left;
   padding: 0.2em 0.5em 0.2em 0.5em;
-  border-bottom: 1px solid; }
+  border: 1px solid; }
 
 .reveal table th[align="center"],
 .reveal table td[align="center"] {
